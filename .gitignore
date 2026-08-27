@@ -1,0 +1,32 @@
+# ===[ Game files ]===
+#
+# UNDERTALE and DELTARUNE are commercial games. Nothing that came out of either one goes
+# in here: not the data.win, not the audio, not the texture pack built from it. The port
+# is the code that runs them; the games themselves stay on the disk you bought them from.
+game/
+dist/
+wii-sd/apps/*/data.win
+wii-sd/apps/*/audiogroup*.dat
+wii-sd/apps/*/*.ogg
+wii-sd/apps/*/mus/
+wii-sd/apps/*/lang/
+wii-sd/apps/*/slots/
+*.wtex
+*.kris
+data.win
+audiogroup*.dat
+
+# ===[ Build output ]===
+build/
+build_wii/
+*.dol
+*.elf
+*.map
+*.o
+*.d
+
+# ===[ Working files ]===
+*.raw
+*.log
+*.qoicache
+PROMPT.md

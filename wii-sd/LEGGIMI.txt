@@ -1,0 +1,66 @@
+DeltaWii + WiiTale - scheda pronta per la Wii
+=============================================
+
+Copia la cartella "apps" nella radice della scheda SD o della chiavetta USB
+(quella etichettata WIITALE va benissimo). Deve venire cosi':
+
+    (radice della scheda)
+      apps/
+        deltawii/     DELTARUNE capitolo 1
+        wiitale/      UNDERTALE
+
+Poi accendi la Wii, apri l'Homebrew Channel e li trovi tutti e due nella lista.
+
+Se preferisci la USB invece della SD funziona uguale: il programma cerca il
+gioco in sd:/apps/<nome>/ e in usb:/apps/<nome>/, in quest'ordine.
+
+
+Comandi
+-------
+
+Wiimote tenuto in orizzontale, come un NES:
+
+    croce      muoversi
+    2          conferma
+    1          annulla
+    HOME       apre il menu
+
+Funzionano anche Nunchuk e Classic Controller. Col Nunchuk attaccato la croce
+si legge dritta, perche' e' l'unico modo in cui puoi tenere il telecomando.
+
+
+Il menu (HOME)
+--------------
+
+    RESUME       torna al gioco
+    SAVE SLOTS   tre salvataggi piu' il backup automatico
+    ROOM WARP    salta in qualsiasi stanza, anche quelle nascoste
+    QUIT         torna all'Homebrew Channel
+
+Le scritte sono al doppio della grandezza originale: il font dei giochi e' alto
+8 pixel, pensato per un monitor vicino, non per un televisore dal divano.
+
+In basso c'e' il contatore dei frame: dice quanti fotogrammi al secondo sta
+facendo davvero, l'obiettivo (30) e quanti hanno sforato. Se il numero diventa
+rosso vuol dire che la console non ce la sta facendo in quella scena.
+
+
+Velocita'
+---------
+
+Tutti e due i giochi sono bloccati a 30 fotogrammi al secondo, che e' la
+velocita' per cui sono stati scritti: UNDERTALE lo dichiara in ognuna delle sue
+336 stanze, DELTARUNE lo mette nell'intestazione del file (30.0). A 60 la
+logica del gioco girerebbe al doppio della velocita', non piu' fluida.
+
+
+Se qualcosa non parte
+---------------------
+
+Il programma scrive un file di diagnostica sulla scheda:
+
+    <radice>/deltawii-boot.log        problemi di avvio
+    apps/deltawii/deltawii.log        tutto il resto
+
+Se non trova il gioco, la schermata elenca cartella per cartella cosa vede
+davvero sulla scheda, cosi' si capisce a che livello si perde.

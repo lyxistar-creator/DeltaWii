@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app version="1">
+  <name>WiiTale</name>
+  <coder>LeolandiaPlus</coder>
+  <version>1.0</version>
+  <short_description>UNDERTALE, natively on the Wii</short_description>
+  <long_description>A native Wii port of UNDERTALE, running the original game's bytecode through a GX renderer.
+
+Put the game's data.win, the generated textures.wtex and its .ogg music files in this folder.
+
+Controls: hold the Wii Remote sideways. D-pad moves, 2 confirms, 1 cancels, minus opens the menu, HOME exits. Nunchuk and Classic Controller work too.
+
+Minus + Plus toggles pointer steering, 1 + Plus opens the room warp menu, Minus + 1 opens the save slot manager.</long_description>
+</app>

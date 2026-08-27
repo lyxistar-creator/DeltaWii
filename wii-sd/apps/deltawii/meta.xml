@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app version="1">
+  <name>DeltaWii</name>
+  <coder>LeolandiaPlus</coder>
+  <version>1.0</version>
+  <short_description>DELTARUNE Chapter 1, natively on the Wii</short_description>
+  <long_description>A native Wii port of DELTARUNE Chapter 1, running the original game's bytecode through a GX renderer.
+
+This folder needs the chapter's own files beside boot.dol: data.win, audiogroup1.dat, the generated textures.wtex, the chapter's .ogg sound effects, the mus/ folder of music and the lang/ folder.
+
+Controls: hold the Wii Remote sideways. D-pad moves, 2 confirms, 1 cancels, HOME opens the menu. Nunchuk and Classic Controller work too.
+
+The menu holds the save slots, the room warp and the frame rate readout. The game is locked to 30 frames per second, which is the rate DELTARUNE is authored for.</long_description>
+</app>
